@@ -1,0 +1,23 @@
+{
+  "name": "express_userapi",
+  "version": "1.0.0",
+  "description": "Example user api for test everything",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slapexs/express_userapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slapexs/express_userapi/issues"
+  },
+  "homepage": "https://github.com/slapexs/express_userapi#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
