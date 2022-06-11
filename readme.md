@@ -8,7 +8,7 @@ Example user api for test everything
     {
         "username": "admin",
         "password": 123456,
-        "email": admin.work@examplemail.com,
+        "email": "admin.work@examplemail.com",
         "firstname":"Joyce",
         "lastname": "Gray"
     }
