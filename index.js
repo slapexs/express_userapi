@@ -16,4 +16,4 @@ app.get('/', (request, response) => {
 });
 
 // User api
-app.use('/user', routerUser);
+app.use('/users', routerUser);

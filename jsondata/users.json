@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "username": "katriyalnwza",
+    "password": 123456,
+    "email": "Katriya.Wongwarang@examplemail.com",
+    "firstname": "Katriya",
+    "lastname": "Wongwarang"
+  },
+  {
+    "id": 2,
+    "username": "jomkwanza123",
+    "password": 123456,
+    "email": "Jomkwan.Watcharasopon@examplemail.com",
+    "firstname": "Jomkwan",
+    "lastname": "Watcharasopon"
+  },
+  {
+    "id": 3,
+    "username": "niranaza",
+    "password": 123456,
+    "email": "Nirana.Jantaraporn@examplemail.com",
+    "firstname": "Nirana",
+    "lastname": "Jantaraporn"
+  },
+  {
+    "id": 4,
+    "username": "thapanaomg",
+    "password": 123456,
+    "email": "Thapana.Jantarasab@examplemail.com",
+    "firstname": "Thapana",
+    "lastname": "Jantarasab"
+  },
+  {
+    "id": 5,
+    "username": "wanrudeeomg",
+    "password": 123456,
+    "email": "Wanrudee.Udompak@examplemail.com",
+    "firstname": "Wanrudee",
+    "lastname": "Udompak"
+  },
+  {
+    "id": 6,
+    "username": "napatsornzaza",
+    "password": 123456,
+    "email": "Napatsorn.Jantarasombat@examplemail.com",
+    "firstname": "Napatsorn",
+    "lastname": "Jantarasombat"
+  },
+  {
+    "id": 7,
+    "username": "janyapornzaza",
+    "password": 123456,
+    "email": "Janyaporn.Lertwittaya@examplemail.com",
+    "firstname": "Janyaporn",
+    "lastname": "Lertwittaya"
+  },
+  {
+    "id": 8,
+    "username": "wanapornzaza",
+    "password": 123456,
+    "email": "Wanaporn.Preechawong@examplemail.com",
+    "firstname": "Wanaporn",
+    "lastname": "Preechawong"
+  },
+  {
+    "id": 9,
+    "username": "thitiratzaomg",
+    "password": 123456,
+    "email": "Thitirat.Sali@examplemail.com",
+    "firstname": "Thitirat",
+    "lastname": "Sali"
+  },
+  {
+    "id": 10,
+    "username": "sasiwimonzaomg",
+    "password": 123456,
+    "email": "Sasiwimon.Pitiwat@examplemail.com",
+    "firstname": "Sasiwimon",
+    "lastname": "Pitiwat"
+  }
+]

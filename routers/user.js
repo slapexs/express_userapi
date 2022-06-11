@@ -1,18 +1,19 @@
 const express = require('express');
 const router = express.Router();
+const userData = require('../jsondata/users.json');
+const authData = require('../jsondata/auth.json');
 
-const exampleUser = {
-  status: 'success',
-  result: {
-    username: 'admin',
-    password: 123456,
-    email: 'admin.work@examplemail.com',
-    firstname: 'Joyce',
-    lastname: 'Gray',
-  },
-};
 router.get('/', (request, response) => {
-  response.json(exampleUser);
+  const { limit } = request.query;
+  if (!limit) {
+    response.json(userData);
+  } else {
+    response.send(limit);
+  }
+});
+
+router.get('/auth', (request, response) => {
+  response.json(authData);
 });
 
 module.exports = router;
