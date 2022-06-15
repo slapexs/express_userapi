@@ -16,4 +16,14 @@ router.get('/auth', (request, response) => {
   response.json(authData);
 });
 
+router.get('/search/', (request, response) => {
+  const { user } = request.query;
+  const indData = userData.findIndex((item) => item.username == user);
+  if (indData !== -1) {
+    response.json(userData[indData]);
+  } else {
+    response.json([]);
+  }
+});
+
 module.exports = router;
