@@ -21,4 +21,9 @@
 html {
   font-family: 'Prompt', sans-serif;
   font-weight: 400;
+  background-color: #f1f0f0;
+}
+
+.bg-purple {
+  background-color: #8447ff;
 }
