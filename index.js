@@ -9,14 +9,18 @@ const routerUser = require('./routers/user');
 // Extension express
 app.use(express.urlencoded({ extended: true }));
 app.set('view engine', 'hbs');
-hbs.registerPartials(__dirname, '/views/partials');
+hbs.registerPartials(__dirname + '/views/partials');
 app.use('/static', express.static('static'));
+
+// Bootstrap
+app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
+app.use('/js', express.static(__dirname + '/node_modules/bootstrap/dist/js'));
 
 app.listen(port, () =>
   console.log(`Server is running on http://localhost:${port}`)
 );
 app.get('/', (request, response) => {
-  response.send('hi~');
+  response.render('home');
 });
 
 // User api
