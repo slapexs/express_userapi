@@ -1,0 +1,46 @@
+<div class='card'>
+  <h5 class='card-header'>บัญชีผู้ใช้ทั้งหมด</h5>
+  <div class='card-body'>
+    <div class='row'>
+      <div class='col-lg-4'>
+        <ul class='list-group list-group-flush'>
+          <li class='list-group-item'>Method:
+            <span class='badge text-bg-success'>GET</span></li>
+          <li class='list-group-item'>URL:
+            <span><a
+                href='/users'
+                class='text-decoration-none'
+              >/users</a></span></li>
+          <li class='list-group-item'>Response: <span>JSON</span></li>
+        </ul>
+      </div>
+
+      <div class='col-lg-8'>
+        <p><b>Response</b></p>
+        <p><button
+            class='btn btn-primary btn-sm'
+            type='button'
+            data-bs-toggle='collapse'
+            data-bs-target='#sampleUser'
+            aria-expanded='false'
+            aria-controls='sampleUser'
+          >
+            View result
+          </button></p>
+        <div class='collapse' id='sampleUser'>
+          <div class='card card-body'>
+            <pre id='sampleUserResult'></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const sampleUsers = [ { "id": 1, "username": "katriyalnwza", "password":
+  123456, "email": "Katriya.Wongwarang@examplemail.com", "firstname": "Katriya",
+  "lastname": "Wongwarang" } ]
+  document.getElementById("sampleUserResult").innerHTML =
+  JSON.stringify(sampleUsers, null, 4);
+</script>
