@@ -19,11 +19,25 @@
 }
 
 html {
-  font-family: 'Prompt', sans-serif;
   font-weight: 400;
   background-color: #f1f0f0;
 }
 
+body {
+  font-family: 'Prompt', sans-serif;
+}
+
 .bg-purple {
   background-color: #8447ff;
+}
+
+.text-purple {
+  color: #8447ff;
+}
+
+.text-gd-purple {
+  background: linear-gradient(to right, #ff47ff 0%, #8447ff 100%);
+  /* background: -webkit-linear-gradient(#ff47ff, #8447ff); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
