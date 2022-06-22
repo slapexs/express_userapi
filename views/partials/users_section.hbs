@@ -1,46 +1,49 @@
 <div class='card'>
   <h5 class='card-header'>บัญชีผู้ใช้ทั้งหมด</h5>
   <div class='card-body'>
-    <div class='row'>
-      <div class='col-lg-4'>
-        <ul class='list-group list-group-flush'>
+    <div class='justify-content-between d-flex align-items-center'>
+      {{! Listgroup }}
+      <div>
+        <ul class='list-group list-group-horizontal'>
           <li class='list-group-item'>Method:
-            <span class='badge text-bg-success'>GET</span></li>
+            <span class='badge text-bg-success'>GET</span>
+          </li>
           <li class='list-group-item'>URL:
             <span><a
                 href='/users'
                 class='text-decoration-none'
-              >/users</a></span></li>
+              >/users</a></span>
+          </li>
           <li class='list-group-item'>Response: <span>JSON</span></li>
+
         </ul>
       </div>
+      {{!  }}
+      {{! View result }}
+      <div>
+        <button
+          class='btn btn-primary btn-sm'
+          type='button'
+          data-bs-toggle='collapse'
+          data-bs-target='#sampleUser'
+          aria-expanded='false'
+          aria-controls='sampleUser'
+        >
+          ตัวอย่าง
+        </button>
+      </div>
+      {{!  }}
 
-      <div class='col-lg-8'>
-        <p><b>Response</b></p>
-        <p><button
-            class='btn btn-primary btn-sm'
-            type='button'
-            data-bs-toggle='collapse'
-            data-bs-target='#sampleUser'
-            aria-expanded='false'
-            aria-controls='sampleUser'
-          >
-            View result
-          </button></p>
-        <div class='collapse' id='sampleUser'>
-          <div class='card card-body'>
-            <pre id='sampleUserResult'></pre>
-          </div>
+    </div>
+
+    <div class='mt-2'>
+      <b>Response</b>
+      <div class='collapse' id='sampleUser'>
+        <div class='card card-body'>
+          <pre id='sampleAlluser'></pre>
         </div>
       </div>
     </div>
+
   </div>
 </div>
-
-<script>
-  const sampleUsers = [ { "id": 1, "username": "katriyalnwza", "password":
-  123456, "email": "Katriya.Wongwarang@examplemail.com", "firstname": "Katriya",
-  "lastname": "Wongwarang" } ]
-  document.getElementById("sampleUserResult").innerHTML =
-  JSON.stringify(sampleUsers, null, 4);
-</script>

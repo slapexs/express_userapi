@@ -12,10 +12,21 @@
     {{> landing }}
 
     <div class="container">
-        {{> users_section }}
+        {{> users_section}}
     </div>
 
 </body>
 <script src="./js/bootstrap.bundle.min.js"></script>
+<script>
+  const sampleUsers = [{ "id": 1, "username": "katriyalnwza", "password":
+  123456, "email": "Katriya.Wongwarang@examplemail.com", "firstname": "Katriya",
+  "lastname": "Wongwarang" }, { "id": 2, "username": "jomkwanza123", "password":
+  123456, "email": "Jomkwan.Watcharasopon@examplemail.com", "firstname":
+  "Jomkwan", "lastname": "Watcharasopon" }, { "id": 3, "username": "niranaza",
+  "password": 123456, "email": "Nirana.Jantaraporn@examplemail.com",
+  "firstname": "Nirana", "lastname": "Jantaraporn" }]
+  document.getElementById("sampleAlluser").innerHTML =
+  JSON.stringify(sampleUsers, null, 4);
+</script>
 
 </html>
