@@ -5,7 +5,8 @@
     "password": 123456,
     "email": "Katriya.Wongwarang@examplemail.com",
     "firstname": "Katriya",
-    "lastname": "Wongwarang"
+    "lastname": "Wongwarang",
+    "avatar": "/static/avatar/user1.png"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "password": 123456,
     "email": "Jomkwan.Watcharasopon@examplemail.com",
     "firstname": "Jomkwan",
-    "lastname": "Watcharasopon"
+    "lastname": "Watcharasopon",
+    "avatar": "/static/avatar/user2.png"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "password": 123456,
     "email": "Nirana.Jantaraporn@examplemail.com",
     "firstname": "Nirana",
-    "lastname": "Jantaraporn"
+    "lastname": "Jantaraporn",
+    "avatar": "/static/avatar/user3.png"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "password": 123456,
     "email": "Thapana.Jantarasab@examplemail.com",
     "firstname": "Thapana",
-    "lastname": "Jantarasab"
+    "lastname": "Jantarasab",
+    "avatar": "/static/avatar/user4.png"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "password": 123456,
     "email": "Wanrudee.Udompak@examplemail.com",
     "firstname": "Wanrudee",
-    "lastname": "Udompak"
+    "lastname": "Udompak",
+    "avatar": "/static/avatar/user5.png"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "password": 123456,
     "email": "Napatsorn.Jantarasombat@examplemail.com",
     "firstname": "Napatsorn",
-    "lastname": "Jantarasombat"
+    "lastname": "Jantarasombat",
+    "avatar": "/static/avatar/user6.png"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "password": 123456,
     "email": "Janyaporn.Lertwittaya@examplemail.com",
     "firstname": "Janyaporn",
-    "lastname": "Lertwittaya"
+    "lastname": "Lertwittaya",
+    "avatar": "/static/avatar/user7.png"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "password": 123456,
     "email": "Wanaporn.Preechawong@examplemail.com",
     "firstname": "Wanaporn",
-    "lastname": "Preechawong"
+    "lastname": "Preechawong",
+    "avatar": "/static/avatar/user8.png"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "password": 123456,
     "email": "Thitirat.Sali@examplemail.com",
     "firstname": "Thitirat",
-    "lastname": "Sali"
+    "lastname": "Sali",
+    "avatar": "/static/avatar/user9.png"
   },
   {
     "id": 10,
@@ -77,6 +86,7 @@
     "password": 123456,
     "email": "Sasiwimon.Pitiwat@examplemail.com",
     "firstname": "Sasiwimon",
-    "lastname": "Pitiwat"
+    "lastname": "Pitiwat",
+    "avatar": "/static/avatar/user10.png"
   }
 ]
