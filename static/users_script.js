@@ -65,3 +65,18 @@ document.querySelector('#displayAuth').innerHTML = JSON.stringify(
   null,
   4
 );
+
+// Search user
+const res_searchUser = {
+  id: 1,
+  username: 'katriyalnwza',
+  password: 123456,
+  email: 'Katriya.Wongwarang@examplemail.com',
+  firstname: 'Katriya',
+  lastname: 'Wongwarang',
+};
+document.querySelector('#searchUser').innerHTML = JSON.stringify(
+  res_searchUser,
+  null,
+  4
+);
