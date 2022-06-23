@@ -12,7 +12,7 @@ router.get('/', (request, response) => {
   }
 });
 
-router.get('/auth', (request, response) => {
+router.post('/auth', (request, response) => {
   response.json(authData);
 });
 

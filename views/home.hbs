@@ -3,30 +3,23 @@
 {{> baseHeader customTitle='Welcome everyone :D'}}
 
 <body>
-    {{!-- Beta alert --}}
-    {{> index_alert }}
-    {{!-- Navbar --}}
-    {{> navbar }}
+  {{!-- Beta alert --}}
+  {{> index_alert }}
+  {{!-- Navbar --}}
+  {{> navbar }}
 
-    {{!-- Main content --}}
-    {{> landing }}
+  {{!-- Main content --}}
+  {{> landing }}
 
-    <div class="container">
-        {{> users_section}}
-    </div>
+  <div class="container">
+    {{> users_section}}
+
+    {{!-- Auth section --}}
+    {{> auth_section}}
+  </div>
 
 </body>
 <script src="./js/bootstrap.bundle.min.js"></script>
-<script>
-  const sampleUsers = [{ "id": 1, "username": "katriyalnwza", "password":
-  123456, "email": "Katriya.Wongwarang@examplemail.com", "firstname": "Katriya",
-  "lastname": "Wongwarang" }, { "id": 2, "username": "jomkwanza123", "password":
-  123456, "email": "Jomkwan.Watcharasopon@examplemail.com", "firstname":
-  "Jomkwan", "lastname": "Watcharasopon" }, { "id": 3, "username": "niranaza",
-  "password": 123456, "email": "Nirana.Jantaraporn@examplemail.com",
-  "firstname": "Nirana", "lastname": "Jantaraporn" }]
-  document.getElementById("sampleAlluser").innerHTML =
-  JSON.stringify(sampleUsers, null, 4);
-</script>
+<script src="../static/users_script.js"></script>
 
 </html>
